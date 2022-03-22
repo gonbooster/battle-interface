@@ -24,16 +24,16 @@ import {
   Radio,
 } from "@chakra-ui/react";
 
-import PunkCard from "../../components/ghost-card";
+import PunkCard from "../components/ghost-card";
 import SimpleDateTime  from 'react-simple-timestamp-to-date';
 import { useWeb3React } from "@web3-react/core";
-import RequestAccess from "../../components/request-access";
-import GhostCard from "../../components/ghost-card";
-import { useGhostData, useMyGhostsData } from "../../hooks/useGhostsData";
+import RequestAccess from "../components/request-access";
+import GhostCard from "../components/ghost-card";
+import { useGhostData, useMyGhostsData } from "../hooks/useGhostsData";
 import { useParams } from "react-router-dom";
-import Loading from "../../components/loading";
+import Loading from "../components/loading";
 import { useState } from "react";
-import useGhostBattle from "../../hooks/useGhostBattle";
+import useGhostBattle from "../hooks/useGhostBattle";
 import Countdown, { zeroPad } from 'react-countdown';
 import * as moment from 'moment';
 import RadarChart from 'react-svg-radar-chart';

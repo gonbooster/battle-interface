@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { useWeb3React } from "@web3-react/core";
-import useGhostBattle from "../../hooks/useGhostBattle";
+import useGhostBattle from "../hooks/useGhostBattle";
 import { useCallback, useEffect, useState } from "react";
 
 const Home = () => {

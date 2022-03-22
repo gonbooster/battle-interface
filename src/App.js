@@ -2,7 +2,7 @@ import { Route } from "react-router-dom";
 import Home from "./views/home";
 import Ghosts from "./views/ghosts";
 import MyGhosts from "./views/myGhosts";
-import Ghost from "./views/ghost";
+import Ghost from "./views/ghosts";
 import MainLayout from "./layouts/main";
 import Admin from "./views/admin";
 

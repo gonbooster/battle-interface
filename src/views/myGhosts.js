@@ -11,10 +11,10 @@ import {
 } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
-import PunkCard from "../../components/ghost-card";
-import Loading from "../../components/loading";
-import RequestAccess from "../../components/request-access";
-import { useMyGhostsData } from "../../hooks/useGhostsData";
+import PunkCard from "../components/ghost-card";
+import Loading from "../components/loading";
+import RequestAccess from "../components/request-access";
+import { useMyGhostsData } from "../hooks/useGhostsData";
 import { useState } from "react";
 import { useHistory, useLocation } from "react-router-dom";
 
